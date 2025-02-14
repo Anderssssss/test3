@@ -1,7 +1,7 @@
 import osmnx as ox
 import folium as fol
 
-sted = "Bergen, Norway"
+sted = "Oslo, Norway"
 
 tager = {"amenity": "cafe"}
 kafeer = ox.features_from_place(sted, tags=tager)
